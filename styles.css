@@ -38,16 +38,16 @@ button {
 }
 
 .btn-inc {
-  background-color: #6aa84f;
-  border-color: #6aa84f;
+  background-color: #93c47d;
+  border-color: #93c47d;
 }
 
 .btn-dec {
-  background-color: #cc0000;
-  border-color: #cc0000;
+  background-color: #e06666;
+  border-color: #e06666;
 }
 
 .btn-clr {
-  background-color: #f1c232;
-  border-color: #f1c232;
+  background-color: #ffd966;
+  border-color: #ffd966;
 }
