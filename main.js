@@ -15,7 +15,7 @@ function updateNumber() {
 }
 
 function increment() {
-  if (count < 9) {
+  if (count + 1 ) {
     count++;
     updateNumber();
   }
@@ -33,10 +33,10 @@ function reset() {
   updateNumber();
 }
 
-// เพิ่ม event listener สำหรับปุ่มต่าง ๆ
+
 incButton.addEventListener("click", increment);
 decButton.addEventListener("click", decrement);
 clrButton.addEventListener("click", reset);
 
-// อัปเดตค่าเริ่มต้น
+
 updateNumber();
